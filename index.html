@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html">
+<head>
+    <title>Portfolio Nesrine GHRIBI</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="./portfolio/portfolioCss.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="./portfolio/portfolioJs.js"></script>
+    <style>
+        body {
+            position: relative;
+        }
+    </style>
+</head>
+
+<body data-bs-spy="scroll" data-bs-target=".navbar" data-bs-offset="50">
+
+    <nav class="navbar navbar-expand-sm bg-dark navbar-dark fixed-top">
+        <div class="container-fluid">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="#section1">Aubout Me</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#section2">Skills</a>Ò
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#section3">Contact me</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <div id="section1" class="container-fluid" style="padding:100px 20px;">
+        <div class="row">
+            <div class="col-12 col-md-6 mt-md-3 mt-lg-0" style="max-width: 600px;"><img src="./img/moi.png"
+                    style="width: 100%"></div>
+            <div class="col-12 col-md-6 mt-n5 mt-md-1 mt-lg-5 my-description">
+                <p class="my-name">My Name is Nesrine GHRIBI</p>
+                <p class="description">A Highly motivated software engineer who has 4 years of experience and proven
+                    programming skills. Having a strong communication, leadership, and technical background. I’m looking
+                    for a new opportunity in web development.</p>
+            </div>
+        </div>
+    </div>
+
+    <div id="section2" class="container-fluid skills-section" style="padding:100px 20px;">
+        <div class="row skills">
+            <p>Skills</p>
+            <div class="row justify-content-md-center">
+                <div class="col-12 col-md-4 mb-5 mb-md-0 d-flex justify-content-center" title="CSS">
+                    <div class="skill-type">
+                        <img src="./img/css.png" title="CSS">
+                        <p>CSS</p>
+                    </div>
+                </div>
+                <div class="col-12 col-md-4 mb-5 mb-md-0 d-flex justify-content-center" title="JavaScript">
+                    <div class="skill-type">
+                        <img src="./img/JS.png" title="JavaScript">
+                        <p>JavaScript</p>
+                    </div>
+                </div>
+                <div class="col-12 col-md-4 d-flex justify-content-center" title="Java">
+                    <div class="skill-type">
+                        <img src="./img/java.png" title="Java">
+                        <p>Java</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="section3" class="container-fluid contact-me-section" style="padding:200px 20px;">
+        <p>Contact Me</p>
+            <div class="row">
+                <div class="col-12 col-md-10">
+                    <form>
+                        <div class="col-12 col-md-6 col-lg-5 form-group">
+                          <label for="exampleFormControlInput1">Email address</label>
+                          <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+                        </div>
+                        <div class="col-12 col-lg-6 form-group">
+                          <label for="exampleFormControlTextarea1">Message</label>
+                          <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                        </div>
+                        <button class="submit-button" onclick="alertNotAvailble()">Send</button>
+                      </form>
+                </div>
+                <div class="col-12 col-md-2 mt-3 ml-auto">
+                </div>
+
+            </div>
+
+    </div>
+
+</body>
+<footer>Created with Love</footer>
+
+</html>
