@@ -5,7 +5,7 @@
 .my-description .my-name {
     color: #111;
     font-family: 'Helvetica Neue', sans-serif;
-    font-size: 5vw;
+    font-size: 3rem;
     font-weight: bold;
     letter-spacing: -1px;
     line-height: 1;
@@ -15,7 +15,7 @@
     color: #111;
     font-family: 'Open Sans',
         sans-serif;
-    font-size: 30px;
+    font-size: 2rem;
     font-weight: 300;
     line-height: 32px;
     margin: 0 0 72px;
@@ -70,4 +70,17 @@ footer {
     text-align: center;
     background: #CE47C5;
     height: 30px;
+}
+.cv {
+  height: 80px;
+  width: 80px;
+  background: #CE47C5;
+  border-radius: 50%;
+  position: fixed;
+  right: 50px;
+  bottom: 20px;
+  color: whitesmoke;
+  padding: 30px;
+  font-size: 20px;
+  border:2px solid black;
 }
